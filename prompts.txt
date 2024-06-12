@@ -1,0 +1,37 @@
+prompts = [
+    ##### Niveau 1: Récuparation
+    ["How many clients are there in France?",1],    # name of variable is different, possible higher complexity
+    ["How many purchasers are there in France?",1],
+    ["What's the generated turnover of Spain?",1],
+    ["What's the average basket in Italy?",1],
+    ["How many units are sold in France?",1],
+    ["How many units are sold in Spain?",1],
+    ["What's the average basket in Spain?",1],
+    ["How many columns are there?",1],
+    ["How many countries are there?",1],
+    ["How many KPIs are there?",1],
+
+    ##### Niveau 2: Comparaison
+    ["Which country has the lowest turnover", 2],
+    ["Which country has the highest average basket", 2],
+    ["Name the country with the highest number of purchasers", 2],
+    ["Which country sold the most units?", 2],
+    ["Can you rank the countries in descending order per turnover", 2],
+    ["Rank the country names in descending order per turnover", 2],
+    ["Do purchasers in France spend more than in Italy?", 2],   # changed to get rid of (answer by yes or no)
+    ["Do purchasers in Italy spend more than in France?", 2],
+    ["Is the generated turnover higher in Spain than in France?", 2],
+    ["Did Italy sell more units than Spain?", 2],
+
+    ##### Niveau 3: Opération élémentaire
+    ["What is the total generated turnover across all countries?", 3],
+    ["What is the total number of purchasers across all countries?", 3],
+    ["What is the total number of units sold across all countries?", 3],
+    ["What is the average generated turnover across all countries?", 3],        # average is 2 "opération élémentaire", could be considered more complex than sum
+    ["What is the average number of purchasers across all countries?", 3],
+    ["What is the average basket size across all countries?", 3],
+    ["How many more clients are there in Italy compared to France", 3],
+    ["What's the absolute difference between number of purchasers in Italy compared to number of purchasers in France?", 3],
+    ["Which is the average turnover per client in Italy", 3],
+    ["Which is the average turnover per client in France?", 3]
+]
